@@ -1,0 +1,123 @@
+*  {
+    box-sizing: border-box;
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    background: url(body\ yoda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: karla,sans-serif;
+}
+
+.universe {
+    max-width: 850px;
+    margin: 0 auto;
+    padding:20px;
+}
+
+/* Header and main and footer  */
+
+
+header, main, footer {
+    background-color: #00000033;
+    backdrop-filter: blur(10px);
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+/*   Header, main, footer   */
+
+header, main, footer {
+    background-color: #00000033;
+    backdrop-filter: blour(10px);
+    margin-bottom: 15px;
+    border-radius: 20px;
+ }
+
+.links img{
+    padding: 20px;
+    max-width: 265px;
+}
+
+ .links img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    box-shadow:0 0 20px black;
+ }
+
+ header p {
+    font-size: 18px;
+ }
+
+ /*  Main  */
+
+  main {
+    padding: 20px;
+    display: black;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+   main p {
+    font-size: 12px;
+   }
+
+
+
+/* .projects  */ 
+   
+.project{
+    display: inline-block;
+    width: 35%;
+    backdrop-filter: blur(20px);
+    min-width: 250px;
+    margin: 8px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.project img{
+    width: 100;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/*  footer  */
+
+footer {
+    padding: 12px;
+    text-align: center;
+}
+
+footer li {
+    padding: 2px 20px;
+    display: inline;
+}
+
+footer img {
+    padding: 3px;
+}
+
+footer img:hover {
+    background-color: #00000033;
+    border-radius: 100%;
+}
+#other {
+    margin: 10px 0 0 0;
+    font-size: 10px;
+    color: gray;
+}
+
+#other a {
+    color: gray;
+}
+
+#other a:hover {
+    color: white;
+}
